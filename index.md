@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to Teki-chatbot
 
-You can use the [editor on GitHub](https://github.com/teknomo/chatbot/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+- It has a simple GUI written in Python
+- The sample conversational input files are provided in JSON files
+- Automatically Save conversation after finish when closing the program
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/teknomo/chatbot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Simple Mnemonic Algorithm
+1. The chatbot can converse based only on two knowledge bases: common-responses.json and listeningwords.json
+2. Save user input if cannot be answered correctly by the knowledge base of common response
